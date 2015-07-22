@@ -469,6 +469,7 @@
         <version>${version.org.eclipse.jdt.core.compiler}</version>
       </dependency>
 
+      <!-- when merged PR #206 in jboss-i-p-bom this can be removed-->
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-continuation</artifactId>
@@ -803,6 +804,7 @@
         <version>${version.org.codehaus.plexus.plexus-interpolation}</version>
       </dependency>
 
+      <!-- when merged PR #205 in jboss-i-p-bom this can be removed-->
       <dependency>
         <groupId>org.eclipse.aether</groupId>
         <artifactId>aether-api</artifactId>
@@ -996,6 +998,7 @@
       </dependency>
 
       <!-- test dependencies, used in kie-server-services among other places -->
+      <!-- when merged PR #204 to jboss-ip-bom this can be removed -->
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>tjws</artifactId>
@@ -1006,6 +1009,7 @@
         <artifactId>resteasy-test-tjws</artifactId>
         <version>${version.org.jboss.resteasy}</version>
       </dependency>
+      <!-- when merged PR #203 to jboss-ip-bom this can be removed -->
       <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-embedder</artifactId>
@@ -1038,6 +1042,7 @@
       </dependency>
 
       <!-- when upgraded resteasy version in jboss-ip-bom to 2.3.10.Final this can be removed -->
+      <!-- when merged PR #204 to jboss-ip-bom this can be removed -->
       <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>abdera-atom-provider</artifactId>
