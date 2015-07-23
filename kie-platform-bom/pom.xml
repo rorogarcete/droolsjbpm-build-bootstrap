@@ -311,11 +311,13 @@
         <version>${version.link.bek.tools.issue-keeper-junit}</version>
       </dependency>
 
-      <dependency>
+      <!-- is already added to jbos-ip-bom - can be removed -->
+      <!-- <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-bindings-soap</artifactId>
         <version>${version.org.apache.cxf}</version>
-      </dependency>
+      </dependency> -->
+      <!--should be added to jbos-ip-bom -->
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-bindings-xml</artifactId>
@@ -328,11 +330,11 @@
       </dependency>
 
       <!-- when merged PR #202 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.apache.helix</groupId>
         <artifactId>helix-core</artifactId>
         <version>${version.org.apache.helix}</version>
-      </dependency>
+      </dependency> -->
 
       <dependency>
         <groupId>org.apache.lucene</groupId>
@@ -374,11 +376,11 @@
       </dependency>
 
       <!-- when merged PR #197 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.apache.ws.xmlschema</groupId>
         <artifactId>xmlschema-core</artifactId>
         <version>${version.org.apache.ws.xmlschema}</version>
-      </dependency>
+      </dependency> -->
 
       <dependency>
         <groupId>org.apache.xmlgraphics</groupId>
@@ -456,11 +458,11 @@
       </dependency>
 
       <!-- when merged PR #198 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.eclipse.jgit</groupId>
         <artifactId>org.eclipse.jgit</artifactId>
         <version>${version.org.eclipse.jgit}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- needed by jbpm-form-modeler -->
       <dependency>
@@ -470,7 +472,7 @@
       </dependency>
 
       <!-- when merged PR #206 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!--<dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-continuation</artifactId>
         <version>${version.org.eclipse.jetty}</version>
@@ -494,8 +496,9 @@
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-server</artifactId>
         <version>${version.org.eclipse.jetty}</version>
-      </dependency>
-      <dependency><!-- This must be placed above com.google.gwt:gwt-dev to override the Jetty that is present there -->
+      </dependency> -->
+      <!-- <dependency>
+      <This must be placed above com.google.gwt:gwt-dev to override the Jetty that is present there>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-servlet</artifactId>
         <version>${version.org.eclipse.jetty}</version>
@@ -509,7 +512,7 @@
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-util</artifactId>
         <version>${version.org.eclipse.jetty}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- Jolokia  -->
       <dependency>
@@ -733,7 +736,7 @@
 
       <!-- kie-ci -->
       <!-- when merged PR #196 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-artifact</artifactId>
         <version>${version.org.apache.maven}</version>
@@ -782,7 +785,7 @@
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-settings-builder</artifactId>
         <version>${version.org.apache.maven}</version>
-      </dependency>
+      </dependency> -->
 
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
@@ -805,7 +808,7 @@
       </dependency>
 
       <!-- when merged PR #205 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.eclipse.aether</groupId>
         <artifactId>aether-api</artifactId>
         <version>${version.org.eclipse.aether}</version>
@@ -844,7 +847,7 @@
         <groupId>org.eclipse.aether</groupId>
         <artifactId>aether-connector-basic</artifactId>
         <version>${version.org.eclipse.aether}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- jboss as and arquillian deps (JBPM-4403) -->
       <dependency>
@@ -900,7 +903,7 @@
       </dependency>
 
       <!-- when merged PR #201 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.ops4j.pax.exam</groupId>
         <artifactId>pax-exam-container-karaf</artifactId>
         <version>${version.org.ops4j.pax.exam}</version>
@@ -934,7 +937,7 @@
         <groupId>org.ops4j.pax.exam</groupId>
         <artifactId>pax-exam-invoker-junit</artifactId>
         <version>${version.org.ops4j.pax.exam}</version>
-      </dependency>
+      </dependency> -->
 
       <dependency>
         <groupId>org.apache.geronimo.specs</groupId>
@@ -999,7 +1002,7 @@
 
       <!-- test dependencies, used in kie-server-services among other places -->
       <!-- when merged PR #204 to jboss-ip-bom this can be removed -->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>tjws</artifactId>
         <version>${version.org.jboss.resteasy}</version>
@@ -1008,13 +1011,13 @@
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>resteasy-test-tjws</artifactId>
         <version>${version.org.jboss.resteasy}</version>
-      </dependency>
+      </dependency> -->
       <!-- when merged PR #203 to jboss-ip-bom this can be removed -->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.apache.maven</groupId>
         <artifactId>maven-embedder</artifactId>
         <version>${version.org.apache.maven}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- Lienzo -->
       <dependency>
@@ -1043,7 +1046,7 @@
 
       <!-- when upgraded resteasy version in jboss-ip-bom to 2.3.10.Final this can be removed -->
       <!-- when merged PR #204 to jboss-ip-bom this can be removed -->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>abdera-atom-provider</artifactId>
         <version>${version.org.jboss.resteasy}</version>
@@ -1122,11 +1125,11 @@
         <groupId>org.jboss.resteasy</groupId>
         <artifactId>resteasy-yaml-provider</artifactId>
         <version>${version.org.jboss.resteasy}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- if upgraded jboss.xnio version in jboss-ip-bom to 3.2.0.Final this can be removed -->
       <!-- when merged PR #200 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.jboss.xnio</groupId>
         <artifactId>xnio-api</artifactId>
         <version>${version.org.jboss.xnio}</version>
@@ -1135,7 +1138,7 @@
         <groupId>org.jboss.xnio</groupId>
         <artifactId>xnio-nio</artifactId>
         <version>${version.org.jboss.xnio}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- if upgraded allen-sauer.gwt.dnd version in jboss-ip-bom to 3.3.3 this can be removed -->
       <dependency>
@@ -1163,12 +1166,13 @@
         <artifactId>selenium-java</artifactId>
         <version>${version.org.seleniumhq.selenium}</version>
       </dependency>
+
       <!-- when merged PR #194 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-exec</artifactId>
         <version>${version.org.apache.commons.commons-exec}</version>
-      </dependency>
+      </dependency> -->
 
       <dependency>
         <groupId>com.github.detro</groupId>
@@ -1178,17 +1182,17 @@
 
       <!-- this override should be removed when pull request on integration platform bom is performed -->
       <!-- when merged PR #199 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.jboss.forge.roaster</groupId>
         <artifactId>roaster-api</artifactId>
         <version>2.13.0.Final</version>
-      </dependency>
+      </dependency> -->
       <!-- when merged PR #199 in jboss-i-p-bom this can be removed-->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.jboss.forge.roaster</groupId>
         <artifactId>roaster-jdt</artifactId>
         <version>2.13.0.Final</version>
-      </dependency>
+      </dependency> -->
 
       <!-- Remove hibermate-jpamodelgen 
            when we move to jboss-integration-platform-bom 6.0.0.CR27+ -->
