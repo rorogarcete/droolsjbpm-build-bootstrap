@@ -462,6 +462,31 @@
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
+      
+	  <!-- jBPM Mobile -->
+      <dependency>
+        <groupId>org.jbpm</groupId>
+        <artifactId>jbpm-console-ng-mobile-core-client</artifactId>
+        <version>${version.org.jbpm}</version>
+      </dependency>
+        
+      <dependency>
+        <groupId>org.jbpm</groupId>
+        <artifactId>jbpm-console-ng-mobile-human-tasks-client</artifactId>
+        <version>${version.org.jbpm}</version>
+      </dependency>
+    
+      <dependency>
+        <groupId>org.jbpm</groupId>
+        <artifactId>jbpm-console-ng-mobile-process-runtime-client</artifactId>
+        <version>${version.org.jbpm}</version>
+      </dependency>
+    
+      <dependency>
+        <groupId>com.googlecode.mgwt</groupId>
+        <artifactId>mgwt</artifactId>
+        <version>2.0.0</version>
+      </dependency>
 
       <!-- jbpm-designer -->
       <dependency>
